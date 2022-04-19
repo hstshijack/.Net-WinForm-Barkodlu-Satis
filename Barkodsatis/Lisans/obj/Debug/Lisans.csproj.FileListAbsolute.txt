@@ -1,0 +1,9 @@
+C:\Users\huseyin\source\repos\Barkodsatis\Lisans\bin\Debug\Lisans.pdb
+C:\Users\huseyin\source\repos\Barkodsatis\Lisans\obj\Debug\Lisans.csprojAssemblyReference.cache
+C:\Users\huseyin\source\repos\Barkodsatis\Lisans\obj\Debug\Lisans.Properties.Resources.resources
+C:\Users\huseyin\source\repos\Barkodsatis\Lisans\obj\Debug\Lisans.csproj.GenerateResource.cache
+C:\Users\huseyin\source\repos\Barkodsatis\Lisans\obj\Debug\Lisans.csproj.CoreCompileInputs.cache
+C:\Users\huseyin\source\repos\Barkodsatis\Lisans\obj\Debug\Lisans.pdb
+C:\Users\huseyin\source\repos\Barkodsatis\Lisans\bin\Debug\Lisans.dll.config
+C:\Users\huseyin\source\repos\Barkodsatis\Lisans\bin\Debug\Lisans.dll
+C:\Users\huseyin\source\repos\Barkodsatis\Lisans\obj\Debug\Lisans.dll

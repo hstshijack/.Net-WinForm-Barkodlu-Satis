@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="barkodlusatisModelStoreContainer" CdmEntityContainer="barkodlusatisEntities">
+    <EntitySetMapping Name="Urunler">
+      <EntityTypeMapping TypeName="barkodlusatisModel.Urunler">
+        <MappingFragment StoreEntitySet="Urunler">
+          <ScalarProperty Name="Onay" ColumnName="Onay" />
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="Barkod" ColumnName="Barkod" />
+          <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="UrunGrup" ColumnName="UrunGrup" />
+          <ScalarProperty Name="AlisFiyati" ColumnName="AlisFiyati" />
+          <ScalarProperty Name="SatisFiyati" ColumnName="SatisFiyati" />
+          <ScalarProperty Name="KdvOrani" ColumnName="KdvOrani" />
+          <ScalarProperty Name="KdvTutari" ColumnName="KdvTutari" />
+          <ScalarProperty Name="Birim" ColumnName="Birim" />
+          <ScalarProperty Name="Miktar" ColumnName="Miktar" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="Kullanici" ColumnName="Kullanici" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="terazi">
+      <EntityTypeMapping TypeName="barkodlusatisModel.terazi">
+        <MappingFragment StoreEntitySet="terazi">
+          <ScalarProperty Name="TeraziOnEk" ColumnName="TeraziOnEk" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hizliurun">
+      <EntityTypeMapping TypeName="barkodlusatisModel.hizliurun">
+        <MappingFragment StoreEntitySet="hizliurun">
+          <ScalarProperty Name="fiyat" ColumnName="fiyat" />
+          <ScalarProperty Name="urunadi" ColumnName="urunadi" />
+          <ScalarProperty Name="barkod" ColumnName="barkod" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="islem">
+      <EntityTypeMapping TypeName="barkodlusatisModel.islem">
+        <MappingFragment StoreEntitySet="islem">
+          <ScalarProperty Name="islemno" ColumnName="islemno" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="islem_ozet">
+      <EntityTypeMapping TypeName="barkodlusatisModel.islem_ozet">
+        <MappingFragment StoreEntitySet="islem_ozet">
+          <ScalarProperty Name="kullanici" ColumnName="kullanici" />
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="aciklama" ColumnName="aciklama" />
+          <ScalarProperty Name="alisfiyat_toplam" ColumnName="alisfiyat_toplam" />
+          <ScalarProperty Name="gider" ColumnName="gider" />
+          <ScalarProperty Name="gelir" ColumnName="gelir" />
+          <ScalarProperty Name="kart" ColumnName="kart" />
+          <ScalarProperty Name="nakit" ColumnName="nakit" />
+          <ScalarProperty Name="odemesekli" ColumnName="odemesekli" />
+          <ScalarProperty Name="iademi" ColumnName="iademi" />
+          <ScalarProperty Name="islemno" ColumnName="islemno" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="satis">
+      <EntityTypeMapping TypeName="barkodlusatisModel.satis">
+        <MappingFragment StoreEntitySet="satis">
+          <ScalarProperty Name="kullanici" ColumnName="kullanici" />
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="iade" ColumnName="iade" />
+          <ScalarProperty Name="odeme_sekli" ColumnName="odeme_sekli" />
+          <ScalarProperty Name="kdvtutari" ColumnName="kdvtutari" />
+          <ScalarProperty Name="toplam" ColumnName="toplam" />
+          <ScalarProperty Name="miktar" ColumnName="miktar" />
+          <ScalarProperty Name="satisfiyat" ColumnName="satisfiyat" />
+          <ScalarProperty Name="alisfiyat" ColumnName="alisfiyat" />
+          <ScalarProperty Name="birim" ColumnName="birim" />
+          <ScalarProperty Name="urungrup" ColumnName="urungrup" />
+          <ScalarProperty Name="barkod" ColumnName="barkod" />
+          <ScalarProperty Name="urunadi" ColumnName="urunadi" />
+          <ScalarProperty Name="islemno" ColumnName="islemno" />
+          <ScalarProperty Name="satis_id" ColumnName="satis_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="urungrup">
+      <EntityTypeMapping TypeName="barkodlusatisModel.urungrup">
+        <MappingFragment StoreEntitySet="urungrup">
+          <ScalarProperty Name="urungrupadi" ColumnName="urungrupadi" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="barkod">
+      <EntityTypeMapping TypeName="barkodlusatisModel.barkod">
+        <MappingFragment StoreEntitySet="barkod">
+          <ScalarProperty Name="barkodno" ColumnName="barkodno" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stokhareket">
+      <EntityTypeMapping TypeName="barkodlusatisModel.stokhareket">
+        <MappingFragment StoreEntitySet="stokhareket">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="kullanici" ColumnName="kullanici" />
+          <ScalarProperty Name="urungrup" ColumnName="urungrup" />
+          <ScalarProperty Name="miktar" ColumnName="miktar" />
+          <ScalarProperty Name="birim" ColumnName="birim" />
+          <ScalarProperty Name="urunadi" ColumnName="urunadi" />
+          <ScalarProperty Name="barkod" ColumnName="barkod" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sabit">
+      <EntityTypeMapping TypeName="barkodlusatisModel.sabit">
+        <MappingFragment StoreEntitySet="sabit">
+          <ScalarProperty Name="Eposta" ColumnName="Eposta" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Unvan" ColumnName="Unvan" />
+          <ScalarProperty Name="AdSoyad" ColumnName="AdSoyad" />
+          <ScalarProperty Name="Yazici" ColumnName="Yazici" />
+          <ScalarProperty Name="kartkomisyon" ColumnName="kartkomisyon" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kullanici">
+      <EntityTypeMapping TypeName="barkodlusatisModel.kullanici">
+        <MappingFragment StoreEntitySet="kullanici">
+          <ScalarProperty Name="Yedekleme" ColumnName="Yedekleme" />
+          <ScalarProperty Name="FiyatGuncelle" ColumnName="FiyatGuncelle" />
+          <ScalarProperty Name="Ayarlar" ColumnName="Ayarlar" />
+          <ScalarProperty Name="Urungiris" ColumnName="Urungiris" />
+          <ScalarProperty Name="Stok" ColumnName="Stok" />
+          <ScalarProperty Name="Rapor" ColumnName="Rapor" />
+          <ScalarProperty Name="Satis" ColumnName="Satis" />
+          <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+          <ScalarProperty Name="KullaniciAd" ColumnName="KullaniciAd" />
+          <ScalarProperty Name="Eposta" ColumnName="Eposta" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="AdSoyad" ColumnName="AdSoyad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="guvenlik">
+      <EntityTypeMapping TypeName="barkodlusatisModel.guvenlik">
+        <MappingFragment StoreEntitySet="guvenlik">
+          <ScalarProperty Name="bitis" ColumnName="bitis" />
+          <ScalarProperty Name="baslangic" ColumnName="baslangic" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
